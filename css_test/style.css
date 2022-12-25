@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 30px;
+  
+}
+
+#id1 {
+  font-size: 30px;
+  background: darkgreen;
+  color: yellow;
+}
+
+#id2 {
+  font-size: 30px;
+  background: yellow;
+  color: darkgreen;
+}
+
+#id3 {
+  font-size: 30px;
+  background: darkgreen;
+  color: yellow;
+}
+
+@media screen and (max-width: 400px) {
+  #id1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #id3 {
+    display: none;
+  }
+}
+
+
+@media screen and (max-aspect-ratio:5/4) {
+  body{
+    background-color: aquamarine;
+  }
+}
